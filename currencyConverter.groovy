@@ -1,5 +1,9 @@
 
-print "MY FIRST CHANGE. Added this print command."
+print "MY FIRST CHANGE. Added this print command.";
+
+print "MY SECOND CHANGE. Added the second print command.";
+
+
 print "If I give you £1, how many Euro will you give me? ";
 double euroOverPoundRatio = Double.parseDouble(System.console().readLine());
 print "If I give you 1€, how many Sterling pounds will you give me? ";
