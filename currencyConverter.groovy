@@ -38,6 +38,7 @@ while (!finished) {
 	  break;
 	case 4:
 	  println "You're an ugly bastard";
+	  break;
     case 0: 
 	  finished = true;
 	  break;
