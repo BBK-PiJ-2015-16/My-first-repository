@@ -10,6 +10,7 @@ while (!finished) {
     println "   1 - Exchange pounds into euro";
     println "   2 - Exchange euro into pounds";
 	println "   3 - See a motivational message";
+	println "   4 - Ruin my day"
     println "   0 - Exit the program";
     println "";
     print   "> ";
@@ -28,8 +29,10 @@ while (!finished) {
 	  println euro + "€ will give you £" + pounds;
 	  break;
 	case 3:
-	  print "You look lovely today, good work!"
+	  println "You look lovely today, good work!";
 	  break;
+	case 4:
+	  println "You're an ugly bastard";
     case 0: 
 	  finished = true;
 	  break;
